@@ -1,0 +1,614 @@
+.promo_top_banner+.card{
+  margin-top:0px;
+}
+h1{
+  margin: 30px 0 5px;
+  font-size: 24px;
+  line-height: 32px;
+  word-break: break-all;
+}
+.celebrity-info, .subject-info{
+  position: relative;
+  margin-bottom: 30px;
+}
+.celebrity-info .right, .author-info .right, .subject-info .right{
+  float: right;
+}
+.celebrity-info .right img, .author-info .right img, .subject-info .right img{
+  display:block;
+}
+.celebrity-info .left, .subject-info .left{
+  padding-bottom: 30px;
+}
+.celebrity-info .rating, .author-info .rating, .subject-info .rating{
+  line-height: 18px;
+}
+section p, section h3{
+  line-height: 22px;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+section p{
+  font-size: 15px;
+  color: #494949;
+}
+.rating-stars{
+  display: inline-block;
+  vertical-align: middle;
+}
+.celebrity-info .rating span, .author-info .rating span, .subject-info .rating span{
+  color: #aaa;
+}
+.rating-star-medium-full, .rating-star-medium-half, .rating-star-medium-gray{
+  width: 13px;
+  height: 13px;
+  background-size: 13px 13px;
+}
+.rating-star-medium-full{
+  background-image: url(../img/start.png)
+}
+.rating-stars .rating-star{
+  display: inline-block;
+  margin-right: 1px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.celebrity-info .rating span, .author-info .rating span, .subject-info .rating span{
+  color: #aaa;
+}
+.celebrity-info .meta, .author-info .meta, .subject-info .meta{
+  color: #494949;
+  margin-top: 15px;
+  padding-right: 24px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.subject-mark .mark-item{
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+}
+.subject-mark .mark-item a{
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  border: 1px solid #ffb712;
+  border-radius: 3px;
+  margin-right: 10px;
+  color: #ffb712;
+  font-size: 15px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.subject-mark .mark-item a:last-child{
+  margin: 0;
+}
+.open-in-app-center{
+  border-width: 1px;
+  border-style: solid;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  line-height: 21px;
+  padding: 5px 0;
+  font-size: 15px;
+  border-color: #42bd56;
+  color: #42bd56;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+.item__celebrity{
+  font-size: 14px;
+  width: 75px;
+}
+.item__celebrity:first-child{
+  margin-left: 0;
+}
+.item-poster{
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.item__celebrity .item-title{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: normal;
+  text-align: center;
+  color: #494949;
+  margin-top: 8px;
+}
+.item__celebrity .item-title.role{
+  color: #aaa;
+}
+.tags ul{
+  font-size: 0;
+}
+.tags ul li{
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  font-size: 15px;
+}
+.tags ul li a{
+  font-size: 15px;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 28px;
+  text-align: center;
+  color: #494949;
+  background: #f5f5f5;
+  display: block;
+}
+.photo-list{
+  position: relative;
+  height: 120px;
+  margin-left: -18px;
+}
+.photo-list ul{
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: -18px;
+}
+.photo-list ul{
+  padding-bottom: 20px;
+}
+.photo-list ul li{
+  margin: 0;
+  height: 120px;
+  overflow: hidden;
+  display: inline-block;
+}
+.photo-list ul .video{
+  width: 213.33333px;
+  overflow: hidden;
+  background-size: 100%;
+}
+.photo-list ul li:first-child{
+  margin-left: 18px;
+}
+.photo-list ul .video a{
+  display: block;
+  height: 100%;
+  color: #fff;
+  position: relative;
+}
+.photo-list ul .video span{
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+}
+.photo-list ul .video img, .photo-list ul .video .img{
+  height: 42px;
+  width: 42px;
+  display: inline-block;
+  margin: -21px 0 0 -21px;
+}
+.photo-list ul li img{
+  height: 100%;
+  display: block;
+}
+section h2 {
+  color: #aaa;
+  margin: 0 0 15px;
+  font-size: 15px;
+}
+.comment-list li .desc .date{
+  margin-top: 6px;
+  font-size: 12px;
+  color: #aaa;
+}
+.comment-list li .desc .user-info{
+  /*margin-left:40px;*/
+}
+.desc a{
+  float:left;
+  vertical-align: middle !important;
+}
+section{
+  margin-bottom: 30px;
+}
+.list {
+  margin-right: -18px;
+}
+.list li{
+  position: relative;
+  padding: 15px 18px 15px 0;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.list li:first-child{
+  padding-top:0;
+}
+.comment-list li .desc{
+  font-size: 0;
+  line-height: normal;
+  margin: 0 0 11px;
+  color: #494949;
+  position: relative;
+}
+.list li .desc>a{
+  display: inline;
+}
+.comment-list li .desc img, .comment-list li .desc .avatar{
+  width: 36px;
+  border-radius: 50%;
+  vertical-align: text-top;
+  margin-right: 10px;
+  float: left;
+}
+.comment-list li .desc .user-info{
+  /*margin-left: 40px;*/
+}
+.comment-list li .desc strong{
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-right: 6px;
+}
+section p{
+  font-size: 15px;
+}
+.comment-list li p{
+  padding: 0 0 0 40px;
+  line-height: 22px;
+  color: #494949;
+}
+.comment-list li .btn-info{
+  height: 22px;
+  background:#fff;
+  margin: 10px 0 0 40px;
+}
+.ic-btn{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ic-btn.left{
+  float: left;
+}
+.ic-btn::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: -2px;
+}
+.ic-btn-like::before{
+  background-image:url(../img/ic_like_gray.svg)
+}
+.ic-btn .text{
+  color: #ccc;
+  margin-left: 3px;
+  position: relative;
+  left: 0;
+  top: -3px;
+}
+.ic-btn{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ic-btn.right{
+  float: right;
+}
+.ic-btn::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: -2px;
+}
+.ic-btn-more::before{
+  background-image:url(../img/more.svg)
+}
+.list .go-app, .list .go-review-list, .list .go-comment-list, .list .go-annotation-list, .list .go-list{
+  text-align: center;
+  padding-bottom: 14px;
+  margin-top: -15px;
+  line-height: 18px;
+}
+.list .go-app a, .list .go-review-list a, .list .go-comment-list a, .list .go-annotation-list a, .list .go-list a{
+  font-size: 15px;
+  color: #42bd56;
+}
+.subject-rec .bd{
+  position: relative;
+  height: 160px;
+  margin-left: -18px;
+}
+.subject-rec ul{
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: -18px;
+}
+.subject-rec ul li{
+  width: 80px;
+  overflow: hidden;
+  background: #fff;
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  vertical-align: top;
+}
+.subject-rec ul li:first-child{
+  margin-left: 18px;
+}
+.subject-rec ul .wp{
+  text-align: center;
+}
+.subject-rec img{
+  width: 100%;
+  height: 112px;
+}
+section h3{
+  font-size: 19px;
+  color: #111;
+}
+.subject-rec h3{
+  font-size: 15px;
+  line-height: 18pt;
+  white-space: normal;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: center;
+  color: #494949;
+  margin-top: 8px;
+}
+.subject-reviews .list li h3, .review-list .list li h3{
+  color: #494949;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.41;
+}
+.subject-reviews .list li h3, .review-list .list li h3{
+  margin-bottom: 6px;
+}
+.subject-reviews .list li .username, .review-list .list li .username{
+  color: #494949;
+}
+.list li .rating-stars{
+  font-size: 15px;
+  vertical-align: text-top;
+}
+.subject-reviews .list li .rating-stars, .review-list .list li .rating-stars{
+  font-size: 12px;
+}
+.subject-reviews .list li .rating-star-medium-full, .subject-reviews .list li .rating-star-medium-half, .subject-reviews .list li .rating-star-medium-gray, .review-list .list li .rating-star-medium-full, .review-list .list li .rating-star-medium-half, .review-list .list li .rating-star-medium-gray{
+  width: 12px;
+  height: 12px;
+}
+.subject-reviews .list li .abstract, .review-list .list li .abstract{
+  margin-top: 5px;
+}
+.subject-reviews .list li .abstract, .subject-reviews .list li .info, .review-list .list li .abstract, .review-list .list li .info{
+  line-height: 1.5;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.interests li{
+  margin: 0 0 8px 8px;
+  font-size: .94rem;
+  display: inline-block;
+  border-radius: .25rem;
+  border: solid 1px #42bd56;
+  vertical-align: middle;
+}
+.interests a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 1.55rem;
+  letter-spacing: .1em;
+  overflow: auto;
+  display: block;
+  text-align: center;
+}
+.types{
+  margin-bottom:100px;
+}
+.celebrity-info .rating strong, .author-info .rating strong, .subject-info .rating strong{
+  font-weight: normal;
+  color: #494949;
+  padding-right: 8px;
+  font-size: 0.8rem;
+}
+.celebrity-info .rating span, .author-info .rating span, .subject-info .rating span{
+  color:#aaa;
+  font-size:0.8rem;
+}
+.celebrity-info .cover, .author-info .cover, .subject-info .cover{
+  width:100px;
+}
+
+.celebrity-info .left, .author-info .left, .subject-info .left{
+  margin-right:103px;
+}
+.item__celebrity{
+  font-size: 14px;
+  width: 75px;
+  display:inline-block;
+}
+.item-poster{
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+  display:block;
+}
+.grid{
+  padding: 15px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 660px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.grid .item{
+  float: left;
+  box-sizing: border-box;
+  width: 33.33333%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#list .item{
+  text-decoration: none;
+  color: #9b9b9b;
+}
+.grid .item .cover{
+  min-height: 87px;
+  overflow: hidden;
+  position: relative;
+}
+.grid .ratio1_1, .grid .ratio3_4{
+  position: relative;
+}
+.grid .ratio1_1:before, .grid .ratio3_4:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.grid .ratio3_4:before{
+  padding-top: 143%;
+}
+.grid .item img{
+  display: block;
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+#list .item img{
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+#list .item .img-show{
+  opacity: 1;
+}
+.grid .item .info{
+  height: 45px;
+  overflow: hidden;
+}
+.grid .item h3{
+  font-size: 13px;
+  font-weight: normal;
+  padding: 5px 0 0;
+  color: #494949;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.search{
+  background: #fff;
+  min-height: 100%;
+}
+.search-hd{
+  padding: 7px 20px;
+  border-bottom: 1px solid #F2F2F2;
+  overflow: hidden;
+}
+.search-hd input{
+  height: 30px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  border-radius: 3px;
+  padding: 5px 8px;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  width: 80%;
+  display:inline-block;
+  font-size: 14px;
+  color: #111;
+}
+.search-hd a{
+  float: right;
+  color: #333;
+  display: inline-block;
+  width: 20%;
+  display:inline-block;
+  height: 30px;
+  padding-left: 5%;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.search-results img{
+  float: left;
+  padding: 10px 0px;
+  width: 40px;
+}
+.search-suggestions, .search-results{
+  padding: 0 18px;
+}
+.search-results-modules-name {
+  font-size: 15px;
+  line-height: 15px;
+  color: #aaa;
+}
+.subject-title{
+  display: block;
+  padding-left: 10px;
+  font-size: 17px;
+  color: #494949;
+}
+.rating{
+  padding-left: 10px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-before: 3px;
+}

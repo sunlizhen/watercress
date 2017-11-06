@@ -1,0 +1,413 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video,button{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+h4{
+    color:#666;
+    font-size:12px;
+    font-weight:400;
+}
+.login-wrap{text-align:center;}
+input{display:block; width:250px; height:40px; line-height:40px; margin:0 auto; margin-bottom: 10px; outline:none; border:1px solid #888; padding:10px; box-sizing:border-box;}
+p{color:red;}
+button{display:block; width:250px; height:40px; line-height: 40px; margin:0 auto; border:none; background-color:#41b883; color:#fff; font-size:16px; margin-bottom:5px;}
+span{cursor:pointer;}
+span:hover{color:#41b883;}
+h1{
+  background: #fff;
+  height: 45px;
+  border-bottom: 1px solid #eee;
+  padding: 0 18px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 45px;
+}
+a:link{
+  color: #42bd56;
+  text-decoration: none;
+}
+.mobile-accounts{
+  padding: 15px;
+}
+.form-element{
+  position: relative;
+}
+.form-element strong{
+  font-size: 15px;
+  color: #222;
+  display: none;
+  margin-bottom: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+input{
+  vertical-align: middle;
+}
+.form-element input[type="text"], .form-element input[type="password"]{
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  height: 44px;
+  font-size: 15px;
+  margin: 0;
+  padding: 0 8px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  border-top: 0;
+  width: 100%;
+  line-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-element.form-element-first input{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top: 1px solid #ccc;
+}
+.form-element.submit-button{
+  margin-top: 10px;
+  text-align: center;
+}
+input, button, textarea{
+  font-size: 14px;
+  outline: none;
+  resize: none;
+}
+a, input, button{
+  outline: 0;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+  cursor: pointer;
+  -webkit-appearance: button;
+  -webkit-tap-highlight-color: #ccc;
+}
+.form-element .btn-submit{
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  width: 100%;
+  padding: 3px 26px;
+  color: #ffffff;
+  background: #17AA52;
+  border: 1px solid #17AA52;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.hide{
+  display: none;
+}
+.item-3rd .more-login-btn{
+  font-size: 15px;
+  margin-top: 15px;
+  color: #aaa;
+  text-align: center;
+}
+.btn-wrapper{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: #42bd56;
+}
+a:link{
+  color: #42bd56;
+  text-decoration: none;
+}
+.btn-wrapper .btn{
+  display: inline-block;
+  margin-left: 1.4em;
+}
+.btn-wrapper .btn:first-child{
+  margin-left: 0;
+}
+.btn-wrapper .btn{
+  display: inline-block;
+  margin-left: 1.4em;
+}
+label,input{
+  width:100%;
+}
+h1 a{
+  color: #42bd56;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  left: 18px;
+  top: 28px;
+}
+#content{
+  height: 100%;
+}
+.content{
+  padding: 20px;
+  padding-top: 0;
+}
+.welcome{
+  color: #42bd56;
+  font-size: 40px;
+  margin: 10% 0 9%;
+  font-weight: 300;
+}
+.input input{
+  border: 0 none;
+  width: 96%;
+  background: #fff;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 10px;
+  margin-top: 7px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.input .opt{
+  text-decoration: none;
+  font-size: 13px;
+  position: absolute;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 10px;
+  top: 0;
+  right: 0;
+  color: #42bd56;
+  display: block;
+  -webkit-user-select: none;
+}
+.input .eye-open, .input .eye-close{
+  padding: 0;
+  top: 16px;
+  right: 10px;
+  height: 18px;
+  width: 18px;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+}
+.input .eye-close{
+  background-image:url(../img/eye.png)
+}
+#getNickName{
+  border-top: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#getInput, #getEmail{
+  border-bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+}
+.input{
+  color: #494949;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  overflow: hidden;
+  position: relative;
+}
+
+.center{
+  text-align: center;
+}
+.agreement{
+  font-size: 14px;
+  color: #ccc;
+}
+.agreement a{
+  text-decoration: underline;
+  color: #ccc;
+}
+.open-app{
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: #42bd56;
+}
+.agreement{
+  margin-top:20px;
+}
+.error{
+  color:red;
+  font-size: 12px;
+  margin: 10px 0;
+  display: block;
+}
+.success{
+  color:green;
+  font-size: 12px;
+  margin: 10px 0;
+  display: block;
+}
+.pic{
+  width:110px;
+  height:165px;
+  float:left;
+}
+.pic a{
+  display:block;
+}
+.pic a img{
+  width:100%;
+}
+.events-list-psmall .info{
+  margin-left: 120px;
+  font-size: 12px;
+  color: #666;
+}
+.events-list .event-meta li{
+  margin-bottom: 3px;
+  line-height: 17px;
+}
+.events-list-psmall .info .title{
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+.events-list-pic100 .counts{
+  padding: 3px 10px 2px;
+}
+.events-list-psmall .counts{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  background: #f5f5f5;
+}
+.events-list-psmall .counts span{
+  display: inline-block;
+  padding: 4px 6px 2px 6px;
+  vertical-align: top;
+  color:#666;
+}
+.events-list-psmall .counts span.pipe{
+  padding: 0;
+  margin-top: 6px;
+  width: 1px;
+  height: 12px;
+  vertical-align: middle;
+  background: #ddd;
+  margin: 0 4px;
+  display: inline-block;
+}
+.search-results-modules-name{
+  padding: 13px 0;
+  display: block;
+}
+.denglu{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.rating-star-small-gray{
+  background-image: url(../img/start1.png)
+}
